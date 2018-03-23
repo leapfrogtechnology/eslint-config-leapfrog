@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-leapfrog",
+  "version": "1.0.0",
+  "description": "ESLint config for JavaScript projects at Leapfrog",
+  "main": "index.js",
+  "repository": "leapfrogtechnology/eslint-config-leapfrog",
+  "author": "Saugat Acharya <mesaugat@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/leapfrogtechnology/eslint-config-leapfrog",
+  "bugs": {
+    "url": "https://github.com/leapfrogtechnology/eslint-config-leapfrog/issues"
+  },
+  "keywords": [
+    "rules",
+    "eslint",
+    "linter",
+    "leapfrog",
+    "javascript",
+    "eslint-plugin",
+    "eslint-config"
+  ]
+}
