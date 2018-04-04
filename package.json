@@ -2,13 +2,17 @@
   "name": "eslint-config-leapfrog",
   "version": "1.0.0",
   "description": "ESLint config for JavaScript projects at Leapfrog",
-  "main": "index.js",
+  "main": "eslint.json",
   "repository": "leapfrogtechnology/eslint-config-leapfrog",
   "author": "Saugat Acharya <mesaugat@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/leapfrogtechnology/eslint-config-leapfrog",
   "bugs": {
     "url": "https://github.com/leapfrogtechnology/eslint-config-leapfrog/issues"
+  },
+  "scripts": {
+    "precommit": "npm run lint",
+    "lint": "eslint -c react.json check.js"
   },
   "keywords": [
     "rules",
@@ -18,5 +22,15 @@
     "javascript",
     "eslint-plugin",
     "eslint-config"
-  ]
+  ],
+  "dependencies": {
+    "eslint-plugin-react": "^7.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "husky": "^0.14.3"
+  },
+  "peerDependencies": {
+    "eslint": ">= 4.19.0"
+  }
 }
