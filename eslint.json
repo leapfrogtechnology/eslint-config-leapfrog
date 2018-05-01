@@ -33,6 +33,7 @@
       "unix"
     ],
     "newline-before-return": "error",
+    "no-await-in-loop": "error",
     "no-console": [
       "error",
       {
@@ -43,6 +44,7 @@
       }
     ],
     "no-multi-spaces": "error",
+    "no-return-await": "error",
     "no-var": "error",
     "object-curly-spacing": [
       "error",
@@ -56,6 +58,7 @@
         "avoidEscape": true
       }
     ],
+    "require-await": "error",
     "semi": [
       "error",
       "always"
