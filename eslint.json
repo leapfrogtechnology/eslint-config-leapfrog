@@ -2,6 +2,9 @@
   "extends": [
     "eslint:recommended"
   ],
+  "plugins": [
+    "jsdoc"
+  ],
   "rules": {
     "brace-style": "error",
     "camelcase": "error",
@@ -27,12 +30,21 @@
         "SwitchCase": 1
       }
     ],
+    "jsdoc/check-param-names": 1,
+    "jsdoc/check-tag-names": 1,
+    "jsdoc/newline-after-description": 1,
+    "jsdoc/no-undefined-types": 1,
+    "jsdoc/require-description-complete-sentence": 1,
+    "jsdoc/require-hyphen-before-param-description": 1,
+    "jsdoc/require-param": 1,
+    "jsdoc/require-param-name": 1,
+    "jsdoc/require-param-type": 1,
+    "jsdoc/valid-types": 1,
     "key-spacing": "error",
     "linebreak-style": [
       "error",
       "unix"
     ],
-    "padding-line-between-statements": "error",
     "no-await-in-loop": "error",
     "no-console": [
       "error",
@@ -49,6 +61,38 @@
     "object-curly-spacing": [
       "error",
       "always"
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": [
+          "const",
+          "let",
+          "var"
+        ],
+        "next": [
+          "const",
+          "let",
+          "var"
+        ]
+      }
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
     ],
     "quotes": [
       "error",
@@ -68,20 +112,6 @@
       "error",
       "always"
     ],
-    "space-infix-ops": "error",
-    "valid-jsdoc": [
-      "error",
-      {
-        "requireReturn": true,
-        "requireParamDescription": true
-      }
-    ],
-    "prefer-const": [
-      "error",
-      {
-        "destructuring": "any",
-        "ignoreReadBeforeAssign": false
-      }
-    ]
+    "space-infix-ops": "error"
   }
 }
