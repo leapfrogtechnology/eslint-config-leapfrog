@@ -32,7 +32,7 @@
       "error",
       "unix"
     ],
-    "newline-before-return": "error",
+    "padding-line-between-statements": "error",
     "no-await-in-loop": "error",
     "no-console": [
       "error",
@@ -68,6 +68,20 @@
       "error",
       "always"
     ],
-    "space-infix-ops": "error"
+    "space-infix-ops": "error",
+    "valid-jsdoc": [
+      "error",
+      {
+        "requireReturn": true,
+        "requireParamDescription": true
+      }
+    ],
+    "prefer-const": [
+      "error",
+      {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ]
   }
 }
