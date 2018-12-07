@@ -15,6 +15,7 @@
         "after": true
       }
     ],
+    "curly": "error",
     "eol-last": [
       "error",
       "always"
@@ -30,19 +31,20 @@
         "SwitchCase": 1
       }
     ],
-    "jsdoc/check-param-names": 1,
-    "jsdoc/check-tag-names": 1,
-    "jsdoc/newline-after-description": 1,
-    "jsdoc/require-description-complete-sentence": 1,
-    "jsdoc/require-param": 1,
-    "jsdoc/require-param-name": 1,
-    "jsdoc/require-param-type": 1,
-    "jsdoc/valid-types": 1,
+    "jsdoc/check-param-names": "error",
+    "jsdoc/check-tag-names": "error",
+    "jsdoc/newline-after-description": "error",
+    "jsdoc/require-description-complete-sentence": "error",
+    "jsdoc/require-param": "error",
+    "jsdoc/require-param-name": "error",
+    "jsdoc/require-param-type": "error",
+    "jsdoc/valid-types": "error",
     "key-spacing": "error",
     "linebreak-style": [
       "error",
       "unix"
     ],
+    "newline-before-return": "error",
     "no-await-in-loop": "error",
     "no-console": [
       "error",
@@ -55,6 +57,12 @@
     ],
     "no-multi-spaces": "error",
     "no-return-await": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "next"
+      }
+    ],
     "no-var": "error",
     "object-curly-spacing": [
       "error",
@@ -101,6 +109,18 @@
       }
     ],
     "require-await": "error",
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": true,
+          "ArrowFunctionExpression": true,
+          "FunctionExpression": true
+        }
+      }
+    ],
     "semi": [
       "error",
       "always"
