@@ -1,7 +1,8 @@
 # eslint-config-leapfrog
 
-[![npm version](https://badge.fury.io/js/eslint-config-leapfrog.svg)](https://badge.fury.io/js/eslint-config-leapfrog)
-[![downloads](http://img.shields.io/npm/dt/eslint-config-leapfrog.svg)](https://npmjs.org/package/eslint-config-leapfrog)
+[![npm](https://img.shields.io/npm/v/eslint-config-leapfrog?style=flat-square)](https://badge.fury.io/js/eslint-config-leapfrog)
+[![npm](https://img.shields.io/npm/dm/eslint-config-leapfrog?style=flat-square)](https://npmjs.org/package/eslint-config-leapfrog)
+[![GitHub](https://img.shields.io/github/license/leapfrogtechnology/eslint-config-leapfrog?style=flat-square)](LICENSE)
 
 Set of [ESLint](https://eslint.org/) rules for JavaScript projects at Leapfrog.
 
@@ -9,7 +10,7 @@ Set of [ESLint](https://eslint.org/) rules for JavaScript projects at Leapfrog.
 
 ## Requires
 
-* ESLint **>= 4.19.0**
+- ESLint **>= 4.19.0**
 
 ## Usage
 
@@ -23,9 +24,7 @@ Include `eslint-config-leapfrog` in your [.eslintrc](https://eslint.org/docs/use
 
 ```json
 {
-  "extends": [
-    "eslint-config-leapfrog"
-  ]
+  "extends": ["eslint-config-leapfrog"]
 }
 ```
 
@@ -33,9 +32,7 @@ For projects using React, include `eslint-config-leapfrog/react` which contains 
 
 ```json
 {
-  "extends": [
-    "eslint-config-leapfrog/react"
-  ]
+  "extends": ["eslint-config-leapfrog/react"]
 }
 ```
 
