@@ -1,7 +1,7 @@
 # eslint-config-leapfrog
 
-[![npm version](https://badge.fury.io/js/eslint-config-leapfrog.svg)](https://badge.fury.io/js/eslint-config-leapfrog)
-[![downloads](http://img.shields.io/npm/dt/eslint-config-leapfrog.svg)](https://npmjs.org/package/eslint-config-leapfrog)
+[![npm](https://img.shields.io/npm/v/eslint-config-leapfrog?style=flat-square)](https://badge.fury.io/js/eslint-config-leapfrog)
+[![npm](https://img.shields.io/npm/dm/eslint-config-leapfrog?style=flat-square)](https://npmjs.org/package/eslint-config-leapfrog)
 
 Set of [ESLint](https://eslint.org/) rules for JavaScript projects at Leapfrog.
 
