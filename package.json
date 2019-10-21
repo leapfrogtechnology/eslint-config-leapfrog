@@ -15,7 +15,7 @@
     "eslint.json"
   ],
   "scripts": {
-    "precommit": "npm run lint",
+    "precommit": "yarn lint",
     "lint": "eslint -c react.json check.js"
   },
   "keywords": [
