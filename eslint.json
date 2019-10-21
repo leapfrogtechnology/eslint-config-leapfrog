@@ -1,10 +1,6 @@
 {
-  "extends": [
-    "eslint:recommended"
-  ],
-  "plugins": [
-    "jsdoc"
-  ],
+  "extends": ["eslint:recommended"],
+  "plugins": ["jsdoc"],
   "rules": {
     "brace-style": "error",
     "camelcase": "error",
@@ -16,14 +12,8 @@
       }
     ],
     "curly": "error",
-    "eol-last": [
-      "error",
-      "always"
-    ],
-    "eqeqeq": [
-      "error",
-      "always"
-    ],
+    "eol-last": ["error", "always"],
+    "eqeqeq": ["error", "always"],
     "indent": [
       "error",
       2,
@@ -40,19 +30,13 @@
     "jsdoc/require-param-type": "error",
     "jsdoc/valid-types": "error",
     "key-spacing": "error",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
+    "linebreak-style": ["error", "unix"],
     "newline-before-return": "error",
     "no-await-in-loop": "error",
     "no-console": [
       "error",
       {
-        "allow": [
-          "warn",
-          "error"
-        ]
+        "allow": ["warn", "error"]
       }
     ],
     "no-multi-spaces": "error",
@@ -64,33 +48,18 @@
       }
     ],
     "no-var": "error",
-    "object-curly-spacing": [
-      "error",
-      "always"
-    ],
+    "object-curly-spacing": ["error", "always"],
     "padding-line-between-statements": [
       "error",
       {
         "blankLine": "always",
-        "prev": [
-          "const",
-          "let",
-          "var"
-        ],
+        "prev": ["const", "let", "var"],
         "next": "*"
       },
       {
         "blankLine": "any",
-        "prev": [
-          "const",
-          "let",
-          "var"
-        ],
-        "next": [
-          "const",
-          "let",
-          "var"
-        ]
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
       }
     ],
     "prefer-const": [
@@ -116,20 +85,14 @@
           "FunctionDeclaration": true,
           "MethodDefinition": true,
           "ClassDeclaration": true,
-          "ArrowFunctionExpression": true,
-          "FunctionExpression": true
+          "ArrowFunctionExpression": false,
+          "FunctionExpression": false
         }
       }
     ],
-    "semi": [
-      "error",
-      "always"
-    ],
+    "semi": ["error", "always"],
     "space-before-blocks": "error",
-    "spaced-comment": [
-      "error",
-      "always"
-    ],
+    "spaced-comment": ["error", "always"],
     "space-infix-ops": "error"
   }
 }
