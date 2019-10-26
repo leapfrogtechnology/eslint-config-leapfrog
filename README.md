@@ -42,6 +42,8 @@ Following are the projects compliant to these rules. Send us a PR and we'll add 
 
 1. [just-handlebars-helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
 2. [frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
+4. [SyncDb - Node MSSQL Example](https://github.com/leapfrogtechnology/sync-db/tree/master/examples/node-app-mssql)
+5. [Async Store - Koa Example](https://github.com/leapfrogtechnology/async-store/tree/master/examples/koa-http-server-js)
 
 ## Using TypeScript?
 
