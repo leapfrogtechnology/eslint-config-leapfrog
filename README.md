@@ -36,6 +36,17 @@ For projects using React, include `eslint-config-leapfrog/react` which contains 
 }
 ```
 
+## In the Wild
+
+Following are the projects compliant to these rules. Send us a PR and we'll add you to the list.
+
+1. [just-handlebars-helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
+2. [frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
+
+## Using TypeScript?
+
+Use [tslint-config-leapfrog](https://github.com/leapfrogtechnology/tslint-config-leapfrog) if your project uses TypeScript.
+
 ## License
 
 [MIT](LICENSE)
