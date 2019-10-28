@@ -44,6 +44,7 @@ Following are the projects compliant to these rules. Send us a PR and we'll add 
 * [Express API ES6 Starter](https://github.com/mesaugat/express-api-es6-starter) 
 * [Frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
 * [get-js](https://github.com/kabirbaidhya/get-js)
+* [js-jatra](https://github.com/leapfrogtechnology/js-jatra)
 * [Just Handlebars Helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
 * [SyncDb - Node MSSQL Example](https://github.com/leapfrogtechnology/sync-db/tree/master/examples/node-app-mssql)
 
