@@ -40,15 +40,16 @@ For projects using React, include `eslint-config-leapfrog/react` which contains 
 
 Following are the projects compliant to these rules. Send us a PR and we'll add you to the list.
 
-1. [Just Handlebars Helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
-2. [Frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
-4. [SyncDb - Node MSSQL Example](https://github.com/leapfrogtechnology/sync-db/tree/master/examples/node-app-mssql)
-5. [Async Store - Koa Example](https://github.com/leapfrogtechnology/async-store/tree/master/examples/koa-http-server-js)
-6. [get-js](https://github.com/kabirbaidhya/get-js)
+* [Async Store - Koa Example](https://github.com/leapfrogtechnology/async-store/tree/master/examples/koa-http-server-js) 
+* [Express API ES6 Starter](https://github.com/mesaugat/express-api-es6-starter) 
+* [Frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
+* [get-js](https://github.com/kabirbaidhya/get-js)
+* [Just Handlebars Helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
+* [SyncDb - Node MSSQL Example](https://github.com/leapfrogtechnology/sync-db/tree/master/examples/node-app-mssql)
 
 ## Using TypeScript?
 
-Use [tslint-config-leapfrog](https://github.com/leapfrogtechnology/tslint-config-leapfrog) if your project uses TypeScript.
+Use [tslint-config-leapfrog](https://github.com/leapfrogtechnology/tslint-config-leapfrog).
 
 ## License
 
