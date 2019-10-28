@@ -40,8 +40,9 @@ For projects using React, include `eslint-config-leapfrog/react` which contains 
 
 Following are the projects compliant to these rules. Send us a PR and we'll add you to the list.
 
-1. [just-handlebars-helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
-2. [frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest)
+1. [frogtoberfest](https://github.com/leapfrogtechnology/frogtoberfest) 
+2. [js-jatra](https://github.com/leapfrogtechnology/js-jatra)
+3. [just-handlebars-helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers) 
 
 ## Using TypeScript?
 
