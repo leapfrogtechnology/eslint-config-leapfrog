@@ -4,7 +4,7 @@
   "description": "ESLint config for JavaScript projects at Leapfrog",
   "main": "eslint.json",
   "repository": "leapfrogtechnology/eslint-config-leapfrog",
-  "author": "Saugat Acharya <mesaugat@gmail.com>",
+  "author": "Saugat Acharya <saugatacharya@lftechnology.com>",
   "license": "MIT",
   "homepage": "https://github.com/leapfrogtechnology/eslint-config-leapfrog",
   "bugs": {
@@ -32,10 +32,10 @@
     "eslint-plugin-react": "^7.19.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^6.8.0",
     "husky": "^0.14.3"
   },
   "peerDependencies": {
-    "eslint": ">= 4.19.0"
+    "eslint": ">= 6.0.0"
   }
 }
