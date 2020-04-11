@@ -6,7 +6,7 @@
 
 Set of [ESLint](https://eslint.org/) rules for JavaScript projects at Leapfrog.
 
-**`eslint-config-leapfrog` adds rules on top of `eslint:recommended`, `eslint-plugin-jsdoc` and `plugin:react/recommended`.**
+**`eslint-config-leapfrog` adds rules on top of `eslint:recommended`, `eslint-plugin-jsdoc` and `eslint-plugin-react`.**
 
 ## Requires
 
