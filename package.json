@@ -28,7 +28,7 @@
     "eslint-config"
   ],
   "dependencies": {
-    "eslint-plugin-jsdoc": "^3.9.1",
+    "eslint-plugin-jsdoc": "^22.1.0",
     "eslint-plugin-react": "^7.7.0"
   },
   "devDependencies": {
