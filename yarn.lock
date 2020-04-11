@@ -304,7 +304,7 @@ eslint-plugin-jsdoc@^22.1.0:
     semver "^6.3.0"
     spdx-expression-parse "^3.0.0"
 
-eslint-plugin-react@^7.7.0:
+eslint-plugin-react@^7.19.0:
   version "7.19.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.19.0.tgz#6d08f9673628aa69c5559d33489e855d83551666"
   integrity sha512-SPT8j72CGuAP+JFbT0sJHOB80TX/pu44gQ4vXH/cq+hQTiY2PuZ6IHkqXJV6x1b28GDdo1lbInjKUrrdUf0LOQ==
