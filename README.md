@@ -47,6 +47,7 @@ Following are the projects compliant to these rules. Send us a PR and we'll add 
 - [js-jatra](https://github.com/leapfrogtechnology/js-jatra)
 - [Just Handlebars Helpers](https://github.com/leapfrogtechnology/just-handlebars-helpers)
 - [SyncDb - Node MSSQL Example](https://github.com/leapfrogtechnology/sync-db/tree/master/examples/node-app-mssql)
+- [Bulletin Board](https://github.com/leapfrogtechnology/bulletin-board)
 
 ## License
 
